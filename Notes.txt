@@ -1,0 +1,86 @@
+
+Promises
+API Node.js ---> promisify
+
+class: FileHandle
+
+**** Bucle de eventos ****
+
+EventEmitter---
+
+emitter.emit()
+emitter.on()
+
+async / wait
+
+**************** Streams ******************                      Piping Streams .pipe()
+
+	Readable Streams
+Events: readable, data, end, error
+Methods: read, pause, resume, destroy
+Properties: readable, readableLength
+
+	Writable Streams
+Events: drain, close, finish, error
+Methods: write, destroy, end
+Properties: writable, writableLength
+
+	Read/Write Streams (Duplex, Transform) 
+
+************** Streams in the Node.js API ****************
+
+fs.ReadStream
+fs.WriteStream
+http.ClientRequest
+http.IncomingMessage
+http.ServerResponse
+zlib.createGzip()
+
+*************** npm **********
+
+Is a package Repository
+Is a Command Line Application
+
+npm init --->  inicializa un proyecto y genera un archivo basico package.json (es la ubicacion central
+		para los metadatos del proyecto
+
+Una opcion diferente a npm es conocido como "Yarn"
+
+*************** Assembling a Development Toolset *************
+Express --->
+
+--- Testing Node.js Applications ---
+
+Mocha: Test Framework (mochajs.org)
+Chai: Assertion Library (chaijs.com)
+Sinon: Spies, Stubs and Mocks (sinonjs.org)
+Istanbul: Code Coverage (istanbul.js.org)
+
+********* Debugging Node.js Applications *********
+
+*********** Node.js **************
+Wrapper around V8 (execute JavaScript)
+Built-in modules (fs, http, crypto, zip, ...)
+Asynchornous APIs (no threads)
+C++ addons
+Debugger and other utilities
+NPM
+Module dependency manager
+
+CommonJS
+
+Callback
+
+al iniciar node ($ node) ---> REPL (Read, Eval, Print, Loop)
+--- Comandos ---
+more--> abre un archivo
+.load --> carga el contenido de un archivo
+.save --> guarda un archivo
+.editor --> abre un editor para escribir la cantidad de JavaScript que desees
+ctrl+D --> Evalua lo que se escribio en el editor
+ctrl+L --> borra lo que esté en consola
+Doble Tab --> permite ver las palabras claves posibles (autocompletar)
+
+
+
+$ npm install --save moment ---> Descargara el modulo "moment" al proyecto y modifica el package.json
