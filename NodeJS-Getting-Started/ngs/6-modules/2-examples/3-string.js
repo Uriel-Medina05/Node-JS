@@ -11,6 +11,6 @@ module.exports = `
   </head>
   <body>
 
-  </body>
+  </body> 
   </html>
 `;
