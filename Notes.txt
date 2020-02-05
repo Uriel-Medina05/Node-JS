@@ -80,7 +80,14 @@ more--> abre un archivo
 ctrl+D --> Evalua lo que se escribio en el editor
 ctrl+L --> borra lo que esté en consola
 Doble Tab --> permite ver las palabras claves posibles (autocompletar)
-
-
+_ --> guarda el valor de la ultima sentencia ejecutada
 
 $ npm install --save moment ---> Descargara el modulo "moment" al proyecto y modifica el package.json
+
+Para generar una conexion a un servidor web
+Se utiliza un require('nameModule')
+se llama la funcion createServer((req, res)
+	Recibe dos argumentos, el primero se le llama oyente recibe
+	el objeto de solicitud, el segundo argumento recibe el objeto de respuesta
+
+La funcion listener() ativa el servidor, recibe como argumento el numero del puerto del SO
