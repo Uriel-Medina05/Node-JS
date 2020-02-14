@@ -94,3 +94,8 @@ La funcion listener() ativa el servidor, recibe como argumento el numero del pue
 
 ***** SOFTWARE COMO EXPRESS *****
 koajs --- sailsjs --- meteor
+
+PLANTILLAS DE LENGUAJE
+*Pug
+*handlebarjs
+*EJS
